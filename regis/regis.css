@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  text-rendering: optimizeSpeed;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 15px 25px;
+  margin: 0 auto;
+}
+
+.main {
+  min-height: 100vh;
+  background: url(./images/bg-login.png);
+}
+.main .wrapper {
+  max-width: 600px;
+  margin: 100px auto;
+  border: 1px solid #000;
+}
+.main .wrapper__logo {
+  background-color: #fff;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+.main .wrapper__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #000;
+  padding: 120px 40px;
+}
+.main .wrapper__input {
+  padding: 7px 15px;
+  border: 0px;
+  outline: none;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 26px;
+  font-style: italic;
+}
+.main .wrapper__submit {
+  width: 60%;
+  margin: 0 auto;
+  padding: 5px 10px;
+  background: #ffa800;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #000;
+  display: inline-block;
+  border: 1px solid #ffa800;
+  font-size: 22px;
+  font-weight: 700;
+}
+.main .wrapper__submit:hover {
+  background: #000;
+  border: 1px solid #fff;
+  color: white;
+}/*# sourceMappingURL=regis.css.map */
